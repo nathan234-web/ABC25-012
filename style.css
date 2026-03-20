@@ -1,0 +1,69 @@
+
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: lightyellow;
+}
+
+header{
+    background-color: Gold;
+    text-align: center;
+    padding: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+    color: black;
+}
+
+nav a:hover{
+    background-color: yellow;
+}
+
+main{
+    padding: 20px;
+}
+
+footer{
+    text-align: center;
+    border-top: 2px solid turquoise;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+table{
+    border: 1px solid turquoise;
+}
+
+table{
+    width:100%;
+    border:solid darkgolden;
+}
+
+tr:first-child{
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+tr:hover{
+    background-color: yellow;
+}
+
+.specialpic {
+    border: 3px gold;
+    margin: 30px;
+}
+.Logo{
+    border:2px gold;
+    margin:20px;
+}
+.slogan{
+    font-size:45px;
+}
+.special{
+    font-size:45px;
+    color:maroon;
+    font-weight:bold
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Honeycomb Cafe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+        <h1>Honeycomb Café</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+            <a href="reviews.html">Reviews</a>
+        </nav>
+    </header>
+     <main>
+        <h2>Welcome to Honeycomb Café!</h2>
+        <p>If you want book a table or ask questions fill in the form below.</p>
+        <form id="contactForm">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="date">Select Date:</label>
+            <input type="date" id = "date" name="date">
+            <label for="guests">How many people?</label>
+            <select id ="guests"name="guests">
+                <option value="1">1 person</option>
+                <option value="2">2 people</option>
+                <option value="3">3 people</option>
+                <option value="4">4+people</option>
+                </select>
+                <label for="reason">Reason for Contact:</label>
+                <input type="radio" name="reason" value="booking">Table booking
+                <input type="radio" name="reason" value="question">Question
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+            <button type="submit">Send</button>
+        </form>
+    </main>
+    <footer>
+        <p>© 2026 Honeycomb Café | Contact: info@honeycombcafe.com</p>
+    </footer>
+</body>
+</html>
